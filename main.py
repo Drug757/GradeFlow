@@ -178,3 +178,5 @@ if __name__ == "__main__":
     app = GradeFlowApp(root)
     root.mainloop()
 # Модуль ввода данных завершён
+
+# Добавлена валидация ввода
