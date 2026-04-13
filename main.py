@@ -177,3 +177,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = GradeFlowApp(root)
     root.mainloop()
+# Модуль ввода данных завершён
