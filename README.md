@@ -57,23 +57,3 @@ python -m ruff check main.py --fix
 ```
 
 
----
-
-## Шаг 8: Добавление файлов в Git
-
-```
-# Добавляем новые файлы
-git add pyproject.toml .pre-commit-config.yaml
-
-# Добавляем обновлённый README и отформатированный main.py
-git add README.md main.py
-
-# Смотрим статус
-git status
-
-# Коммитим
-git commit -m "feat: добавлены black, ruff и pre-commit конфигурации"
-
-# Пушим
-git push origin main
-```
