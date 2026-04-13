@@ -10,3 +10,26 @@ python main.py
 
 ## Графический интерфейс
 Приложение имеет графический интерфейс на базе Tkinter с прокруткой и цветовым результатом.
+
+
+## Запуск через Docker
+
+### Сборка образа
+```
+docker build -t gradeflow .
+```
+
+### Запуск контейнера
+```
+docker run --name gradeflow-container gradeflow
+```
+
+### Остановка контейнера
+```
+docker stop gradeflow-container
+```
+
+### Удаление контейнера
+```
+docker rm gradeflow-container
+```
